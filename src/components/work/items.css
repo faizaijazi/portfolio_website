@@ -1,0 +1,30 @@
+.catNames{
+    cursor: pointer;
+}
+
+.catNames:hover {
+    color: #FDB716;
+}
+
+.mainCat{
+  display: flex;
+  justify-content: center;
+  display: flex;
+  justify-content: center;
+    gap: 1rem;
+    margin-bottom: 20px;
+    padding: 5px;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 768px) {
+    .work__conainer {
+      grid-template-columns: max-content;
+    }
+  
+
+    .catNames{
+      font-size: 14px;
+    }
+    
+  }
